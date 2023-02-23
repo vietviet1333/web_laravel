@@ -1,0 +1,564 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f1f1f1 !important;
+    
+}
+.tong {
+    width: 100%;
+    /* padding: 8px; */
+    position: fixed;
+    z-index: 1000;
+}
+.all {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+
+
+
+  
+
+/* css carousel */
+
+div.carousel-item > img {
+    width: 100%;
+}
+
+.cha25 {
+    display:flex;
+    background-color: #fff;
+    margin-top: 5px;
+
+}
+#c70 {
+    width: 70%;
+}
+#c30 {
+    width: 30%;
+    padding-left: 10px;
+}
+.con25 {
+    width: 20%;
+    text-align: center;
+    padding: 7.5px 10px 15px 10px;
+    line-height: 1.3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-right: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+.cha25 > div.con25:last-child {
+    border-right: none;
+}
+#thu > img {
+    width: 100%;
+    height: 179px;
+}
+#thu {
+    margin-bottom: 10px; 
+}
+
+
+
+
+
+
+
+/* Share */
+ul.share-link {
+    position: fixed;
+    right: 0;
+    z-index: 999;
+    text-align: center;
+    top: 37%;
+    background-color: #8f8985;
+    border-radius: 2px 0 0 2px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.share-link > li > a > i {
+    padding: 0;
+}
+ul.share-link > li > a {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #96918c;
+    padding: 7px;
+    font-size: 23px;
+    color: #e4e4e4;
+}
+
+
+
+
+/* carousel */
+
+/* Section 1*/
+.hang {
+    flex-wrap: wrap;
+}
+
+div.tieu-de > h3 {
+    text-align: center;
+    color:white;
+    margin-top: 13px;
+    font-size: 20px;
+    font-weight: 700;
+}
+div.tieu-de {
+    background-color: red;
+    width: 100%;
+    height: 47px;
+    align-items: center;
+}
+ 
+div.col20 {
+    width: 20%;
+    padding: 0 1%;
+    border-right: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    position: relative;
+}
+
+div.col20 > .tra-gop{
+    font-size: 10px;
+    color: white;
+    top: 0px;
+    position: absolute;
+    right: 5px;
+    border-radius: 3px;
+    padding: 4px 5px 0 8px;
+    height: 20px;
+    background-color: #f28902;
+    font-weight: 600;
+}
+div.col20 > .moi-ra-mat{
+    font-size: 10px;
+    color: white;
+    top: 0px;
+    position: absolute;
+    left: 5px;
+    border-radius: 4px;
+    padding: 4px 5px 0 8px;
+    height: 20px;
+    background-color: #3fb846;;
+    font-weight: 600;
+}
+div.col20 > label.sale {
+    padding: 5px 5px;
+    color: #fff;
+    position: absolute;
+    left: 15px;
+    font-size: 10px;
+    bottom: 108px;
+    background-image: linear-gradient(-90deg, #ec1f1f 0%, #ff9c00 100%);
+    border-radius: 4px;
+}
+div.san-pham {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.col20 > a {
+    display: block;
+    text-decoration: none;
+}
+
+div.col20:hover {
+    box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+
+div.col20 > a > figure{
+    margin: 0;
+}
+
+div.col20 > a > figure > img{
+    width: 100%;
+}
+h2.product-title {
+    display: block;
+    width: 100%;
+    color: #4d4d4d;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 1.4;
+    padding: 10px 0px 5px;
+    height: 50px;
+    overflow: hidden;
+
+}
+div.ex-price{
+    width:100%;
+    height:50px;
+    text-align: left;
+} 
+div.price > span{ 
+    padding-left:0;
+    font-size: 14px;
+    color: #e10c00;
+    font-weight: bold;
+    
+}
+del {
+    color:#9e9e9e;
+}
+div.price > del > span{
+    color:#9e9e9e;
+    font-size:12px;
+    margin-left:5px;
+}
+
+/* Section 2*/
+div.contents{
+    width: 100%;
+    height: 50px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+
+div.contents > h3 {
+    text-align: left;
+    margin-left: 1%;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+div.content {
+    width: 70%;
+    
+}
+
+
+ul.phu-kien {
+    display: flex;
+    list-style-type: none;
+    width:82%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul.phu-kien > li {
+    margin-left: 1%;
+   
+}
+.phu-kien  li  a{
+    font-size: 13px;
+    padding: 5px 5px;
+    color: #c21d32;
+    font-weight: 400;
+    border-radius: 5px;
+    border-color: #ccc;
+    text-shadow: 0 1px 0 #fff;
+    background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+}
+a{
+    text-decoration:none !important;
+}
+ul.phu-kien > li > a:hover{
+    background-color:white;
+    border: 1px solid red;
+    border-radius: 5px;
+    
+}
+
+
+
+/*section 3*/
+ul.top-right{
+    width:40%;
+    margin-left: auto;
+    padding: 0;
+}
+/* Footer */
+footer {
+    background-color: #333333;
+}
+.media{
+    margin: 0 auto;
+}
+
+.col25 {
+    width: 25%;
+    padding: 0 1%;
+}
+ul.lien-he {
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul.lien-he > li {
+    padding-bottom: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+ul.lien-he > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+ul.lien-he > li.x > a{
+    width: 181px;
+    height: 45px;
+    display: block;
+}
+ul.lien-he > li.x > a > img {
+    width: 100%;
+}
+.media {
+    display: flex;
+}
+div.media > a {
+    font-size: 30px;
+    display: block;
+    width: 50px;
+}
+
+ul.lien-he > li > a:hover {
+    color: burlywood;
+}
+
+div.col25 > h3 {
+    color: white;
+    padding: 0;
+    font-size: 1.17em;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+div.bottom {
+    align-items: center;
+    padding: 30px 0;
+    background-color: #333333;
+}
+div.col50 {
+    width: 50%;
+    color: white;
+}
+div.hinh-thuc {
+    width: 305px;
+    margin-left: auto;
+    height: 35px;
+}
+div.hinh-thuc > img{
+    width: 100%;
+    
+}
+
+i {
+    padding-right: 15px;
+}
+
+
+
+@media only screen and (max-width:375px){
+    .tong{
+        width:100%;
+    }
+
+    /*header*/
+
+    header.tong > div.all{
+        display:flex;
+    }
+    .menu{
+        display:none;
+    }
+
+    /*secondmenu*/
+    /*.secondmenu > li{
+        width:29% !important;
+    }
+    .menu-icon i{
+        padding-right:0;
+    }
+    .logo a{
+        margin: 0 5px !important;
+    }*/
+
+
+
+
+    /*carousel*/
+    .all{
+        width:100%;
+        display:block;
+    }
+    #c70{
+        width:100%;
+    }
+    .con25{
+        display:none;
+    }
+    #c30{
+        width:100%;
+        display:flex;
+        padding:0;
+    }
+    #thu > img{
+        width:100%;
+        height: auto;
+    }
+    
+    /*section 1*/
+    div.col20{
+        width:50%;
+    }
+    .tieu-de h3{
+        padding:10px;
+        margin:0;
+    }
+
+
+    /*section 2*/
+    div.contents{
+        display: block;
+        height: 50px;
+        margin:10px 0;
+        padding: 0 10px;
+        border:none;
+    }
+    div.contents > h3{
+        width:100%;
+        padding-top:10px;
+    }
+    div.content{
+        width:100%;
+       
+    }
+    ul.phu-kien{
+        padding:5px;
+        width:97%;
+        flex-wrap: nowrap;
+        overflow-y:hidden;
+        overflow-x:scroll; 
+        height: 30px;
+    }
+    .phu-kien  li  a{
+        background-image: linear-gradient(to bottom, #fa6060 0, #ff0000 100%);
+        color: white;
+    }
+
+
+    /*footer*/
+    .col25{
+        width:100%;
+        text-align:center;
+    }
+    div.media {
+        padding: 0 80px;
+    }
+    ul.lien-he > li.x{
+        padding: 2px 83px;
+    }
+    div.col50{
+        width:100%;
+    }
+    div.bottom{
+        padding:20px;
+        text-align:center;
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    div.hinh-thuc{
+        align-items: center;
+        margin:0 0 5px;
+        
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:812px) and (min-width:376px){
+    .tong{
+        width:100%;
+    }
+
+    /*header*/
+
+    header.tong > div.all{
+        display:flex;
+    }
+
+
+    /*carousel*/
+    .all{
+        width:95%;
+        display:block;
+    }
+    #c70{
+        width:100%;
+    }
+
+    #c30{
+        width:100%;
+        display:flex;
+        padding:0;
+    }
+    #thu > img{
+        width:100%;
+        height: auto;
+    }
+    
+    /*section 1*/
+    div.col20{
+        width:25%;
+    }
+    .tieu-de h3{
+        padding:10px;
+        margin:0;
+    }
+
+
+    /*section 2*/
+    div.contents{
+        display: block;
+        height: 50px;
+        margin:10px 0;
+        padding: 0 10px;
+        border:none;
+    }
+    div.contents > h3{
+        width:100%;
+        padding-top:10px;
+    }
+    div.content{
+        width:100%;
+       
+    }
+    ul.phu-kien{
+        padding:5px;
+        width:97%;
+        flex-wrap: nowrap;
+        overflow-y:hidden;
+        overflow-x:scroll; 
+        height: 30px;
+    }
+    .phu-kien  li  a{
+        background-image: linear-gradient(to bottom, #fa6060 0, #ff0000 100%);
+        color: white;
+    }
+
+    footer .all{
+        display:flex;
+    }
+    
+}

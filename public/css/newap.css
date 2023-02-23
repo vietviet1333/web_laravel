@@ -1,0 +1,349 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10000000000;
+
+}
+
+.sticky {
+    background-color: white;
+    opacity: 1;
+
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.menu li a {
+    font-size: small;
+    color: rgb(123, 123, 123);
+    font-weight: 500;
+    margin: 5px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    text-decoration: none;
+
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu li i:hover {
+    cursor: pointer;
+
+}
+
+.down a:hover {
+    color: black;
+}
+
+.drop {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 230px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.drop li a {
+    font-weight: 200;
+    font-size: 0.8rem;
+
+}
+
+.drop li a:hover {
+    color: black;
+    font-weight: 600;
+}
+
+.drop li:hover {
+    background-color: rgb(222, 220, 220);
+}
+
+.drop li {
+    padding: 10px 10px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+
+}
+
+.down:hover .drop {
+    display: block;
+
+}
+
+.menu-right {
+
+    padding-right: 20px;
+}
+
+.tieu {
+    text-align: center;
+    font-size: 0.8cm;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.tieu:hover {
+    color: rgb(113, 85, 23);
+}
+
+.sp {
+    max-width: 90%;
+
+}
+
+.product-name {
+    color: black;
+    font-size: 0.7rem;
+    font-weight: bold;
+
+
+}
+
+.product-name:hover {
+    color: rgb(113, 85, 23);
+}
+
+.sp ul li {
+    max-width: 400px;
+    max-height: 500px;
+    list-style: none;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.sp ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.seennow {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 100%;
+    display: block;
+    bottom: -40px;
+    border: 2px solid black;
+    height: 40px;
+    text-align: center;
+    transition: 0.25s ease-in-out;
+}
+
+.seennow:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.sp li:hover .seennow {
+    bottom: 0;
+}
+
+/* .sp li:hover img{
+  box-shadow: 2px gray;
+} */
+.product-top {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-thumb {
+    display: block;
+}
+
+.product-thumb img {
+    display: block;
+    transition: all 0.25s ease-in-out;
+}
+
+.al a {
+    margin: 20px 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    font-size: 0.7rem;
+    /* border:2px solid black; */
+}
+
+.product-thumb img:hover {
+    transform: scale(1.1);
+}
+
+.al a:hover {
+    background-color: black;
+    color: white;
+}
+
+.news {
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.news img {
+    max-width: 320px;
+    padding: 20px 10px;
+}
+
+.al button {
+    background-color: rgb(255, 255, 255);
+}
+
+.al button:hover {
+    background-color: black;
+}
+
+.fe {
+    max-width: 100%;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+#backtop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backtop:hover {
+    cursor: pointer;
+    background-color: rgb(205, 205, 205);
+}
+
+.ifo {
+    height: 200px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.lofo img {
+    height: 70px;
+    width: auto;
+}
+
+.lofo h6 {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+#form-login {
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+}
+
+.form-heading {
+    font-size: 25px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form-group i {
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.form-input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+
+.form-input::placeholder {
+    color: #f5f5f5;
+}
+
+#eye i {
+    padding-right: 0;
+    cursor: pointer;
+}
+
+.form-submit {
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+
+.form-submit:hover {
+    border: 1px solid #54a0ff;
+}
+
+#modall_container {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000000000000000;
+opacity: 0;
+pointer-events: none;
+transition: all 0.25s ease-in-out;
+}
+#modall_container.hien{
+    opacity: 1;
+    pointer-events: all;
+}
+#modall_container.hien #modall{
+    top: 50%;
+}
+#modall  {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transition: all 0.4s ease-in-out;
+}
+#modall  form{
+    transform: translate(-50% , -50%);
+}
+#cl{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}

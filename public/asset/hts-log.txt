@@ -1,0 +1,35 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 30 May 2022 11:20:35 at https://quick-food.myharavan.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://quick-food.myharavan.com/ -O1 "C:\My Web Sites\snacks" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:22:49	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/owl.video.play.png (from https://quick-food.myharavan.com/)
+11:26:59	Warning: 	Link https://quick-food.myharavan.com/search not scanned (follow robots meta tag)
+11:26:59	Warning: 	Link https://quick-food.myharavan.com/search not scanned (follow robots meta tag)
+11:27:49	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/popper.js (from https://quick-food.myharavan.com/)
+11:27:49	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/+c+ (from https://quick-food.myharavan.com/)
+11:27:49	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/collections/owl.video.play.png (from https://quick-food.myharavan.com/collections/all)
+11:32:03	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/collections/popper.js (from https://quick-food.myharavan.com/collections/all)
+11:32:03	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/collections/+c+ (from https://quick-food.myharavan.com/collections/all)
+11:32:03	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/blogs/owl.video.play.png (from https://quick-food.myharavan.com/blogs/news)
+11:32:21	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/blogs/popper.js (from https://quick-food.myharavan.com/blogs/news)
+11:32:21	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/blogs/+c+ (from https://quick-food.myharavan.com/blogs/news)
+11:32:21	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/pages/owl.video.play.png (from https://quick-food.myharavan.com/pages/about-us)
+11:32:21	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/pages/{0}/page (from https://quick-food.myharavan.com/pages/about-us)
+11:32:21	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/pages/popper.js (from https://quick-food.myharavan.com/pages/about-us)
+11:32:21	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/pages/+c+ (from https://quick-food.myharavan.com/pages/about-us)
+11:32:22	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/products/owl.video.play.png (from https://quick-food.myharavan.com/products/nuoc-trai-cay-lorem-commodo?view=style-01)
+11:32:22	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/products/popper.js (from https://quick-food.myharavan.com/products/nuoc-trai-cay-lorem-commodo?view=style-01)
+11:32:22	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/products/+c+ (from https://quick-food.myharavan.com/products/nuoc-trai-cay-lorem-commodo?view=style-01)
+11:32:22	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/account/owl.video.play.png (from https://quick-food.myharavan.com/account/register)
+11:32:23	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/account/popper.js (from https://quick-food.myharavan.com/account/register)
+11:32:23	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/account/+c+ (from https://quick-food.myharavan.com/account/register)
+11:41:01	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/blogs/news/owl.video.play.png (from https://quick-food.myharavan.com/blogs/news/nuoc-trai-cay-va-pizza-gia-vi)
+11:41:01	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/blogs/news/popper.js (from https://quick-food.myharavan.com/blogs/news/nuoc-trai-cay-va-pizza-gia-vi)
+11:41:01	Error: 	"Not Found" (404) at link https://quick-food.myharavan.com/blogs/news/+c+ (from https://quick-food.myharavan.com/blogs/news/nuoc-trai-cay-va-pizza-gia-vi)
+
+HTTrack Website Copier/3.49-2 mirror complete in 20 minutes 26 seconds : 450 links scanned, 427 files written (65523288 bytes overall) [33653493 bytes received at 27449 bytes/sec], 48299587 bytes transferred using HTTP compression in 86 files, ratio 23%, 2.1 requests per connection
+(22 errors, 2 warnings, 0 messages)
